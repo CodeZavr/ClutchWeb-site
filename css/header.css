@@ -27,6 +27,9 @@ body {
   line-height: 1;
   color: #fff;
   font-family: 'Oswald', sans-serif; }
+  .logo:hover {
+    text-decoration: none;
+    color: #fff; }
   .logo__color {
     font-weight: 700;
     color: #f6832e;
