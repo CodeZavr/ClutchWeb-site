@@ -3001,6 +3001,8 @@ body textarea:required:valid {
   /**/
   .header__nav, .main-header__nav {
     display: none; }
+  .n-hamburger {
+    display: block; }
   .nav {
     position: absolute;
     min-width: 320px;
@@ -3152,8 +3154,6 @@ body textarea:required:valid {
 /* Medium Devices, Desktops */
 @media only screen and (min-width: 992px) {
   /**/
-  .n-hamburger {
-    display: none; }
   .img-block__row > div:nth-child(n+2) {
     padding-left: 0; } }
 

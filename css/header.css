@@ -27,7 +27,7 @@ body {
   line-height: 1;
   color: #fff;
   font-family: 'Oswald', sans-serif; }
-  .logo:hover {
+  .logo:hover, .logo:active, .logo:visited, .logo:focus {
     text-decoration: none;
     color: #fff; }
   .logo__color {
@@ -37,7 +37,7 @@ body {
 
 /* Mobile button */
 .n-hamburger {
-  display: block;
+  display: none;
   position: relative;
   overflow: hidden;
   margin: 0;
